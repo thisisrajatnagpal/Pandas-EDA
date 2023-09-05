@@ -68,7 +68,7 @@
 ## About The Project
 
 This repository contains pandas functions and methodologies which are used on a daily basis. Later on I will add functions created by me using pandas over the course of time.
-Read about 'pandas ta' library to know about pandas technical analysis functions for the stock market.
+Read about `pandas ta` library to know about pandas technical analysis functions for the stock market.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
