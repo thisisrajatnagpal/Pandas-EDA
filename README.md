@@ -132,7 +132,10 @@ You can use the link to instlall TA-Lib without any error
    ```js
    df.sort_values(by="column name", ascending=False).head()
    ```
-
+5. You can iterate through rows and columns in the following manner:
+   ```js
+   df.iloc[0:5, 0:3]
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
