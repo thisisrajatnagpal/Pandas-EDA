@@ -118,7 +118,7 @@ You can use the link to instlall TA-Lib without any error
 ### Functions
 
 
-1. You can use df.describe() method to get the basic statistical characteristics of each numerical feature.
+1. You can use ```sh df.describe() ``` method to get the basic statistical characteristics of each numerical feature.
 2. We can use the info() method to output some general information about the dataframe:
 
    ```sh
