@@ -136,6 +136,13 @@ You can use the link to instlall TA-Lib without any error
    ```js
    df.iloc[0:5, 0:3]
    ```
+
+6. The map method can be used to replace values in a column by passing a dictionary of the form {old_value: new_value} as its argument:
+   ```js
+   d = {"No": False, "Yes": True}
+   df["International plan"] = df["International plan"].map(d)
+   df.head()
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
