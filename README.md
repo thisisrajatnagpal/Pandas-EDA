@@ -118,19 +118,19 @@ You can use the link to instlall TA-Lib without any error
 ### Functions
 
 
-1. You can use ```sh df.describe() ``` method to get the basic statistical characteristics of each numerical feature.
+1. You can use ```df.describe() ``` method to get the basic statistical characteristics of each numerical feature.
 2. We can use the info() method to output some general information about the dataframe:
 
    ```sh
    print(df.info())
    ```
-3. Install NPM packages
+3. Use this to count the individual value counts of different classes present in a particular column
    ```sh
-   npm install
+   df["column name"].value_counts()
    ```
-4. Enter your API in `config.js`
+4. You can sort a dataframe based on a column value as shown below:
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   df.sort_values(by="column name", ascending=False).head()
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
