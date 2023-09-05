@@ -111,18 +111,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Recommendation for TA-Lib library for technical indicators of candle stick patterns
 
-This is an example of how to list things you need to use the software and how to install them.
+You can use the link to instlall TA-Lib without any error
   (https://blog.quantinsti.com/install-ta-lib-python/)
 
 
 ### Functions
 
-We can use the info() method to output some general information about the dataframe:
 
-1. print(df.info())
-2. Clone the repo
+1. You can use df.describe() method to get the basic statistical characteristics of each numerical feature.
+2. We can use the info() method to output some general information about the dataframe:
+
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   print(df.info())
    ```
 3. Install NPM packages
    ```sh
