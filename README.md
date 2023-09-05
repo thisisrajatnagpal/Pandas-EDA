@@ -23,7 +23,7 @@
   <h3 align="center">Pandas Functions and Methodolodgies</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome collation of pandas functions to jumpstart your next exploratory data analysis projects!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -68,7 +68,7 @@
 ## About The Project
 
 This repository contains pandas functions and methodologies which are used on a daily basis. Later on I will add functions created by me using pandas over the course of time.
-Use the `BLANK_README.md` to get started.
+Read about 'pandas ta' library to know about pandas technical analysis functions for the stock market.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
